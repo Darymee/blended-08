@@ -1,6 +1,7 @@
 .button {
   display: flex;
   justify-content: center;
+  align-items: center;
   min-width: 165px;
   min-height: 50px;
   background-color: #d23166;
@@ -12,4 +13,5 @@
   font-size: 16px;
   line-height: 22px;
   color: #fafafa;
+  cursor: pointer;
 }
