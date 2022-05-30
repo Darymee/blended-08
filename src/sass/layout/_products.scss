@@ -103,6 +103,7 @@ border: 0;
 
 .product__information__price {
     display: inline-flex;
+    align-items: baseline;
 
     &:nth-child(2) {
         flex-direction: column;
