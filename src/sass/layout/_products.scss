@@ -73,6 +73,11 @@ background-color: var(--white-color);
     margin-top: 59px;
 }
 
+.product__information__ice__right {
+    margin-top: 59px;
+    margin-right: 85px;
+}
+
 .product__information__title {
 font-weight: 700;
 font-size: 26px;
@@ -89,10 +94,6 @@ opacity: 0.7;
 
 .button.product__information__button {
 border: 0;
-
-    &:nth-child(2) {
-        margin-left: auto;
-    }
 }
 
 .button.product__information__button__right {
