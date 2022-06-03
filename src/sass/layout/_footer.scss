@@ -1,0 +1,145 @@
+.footer {
+  background-color: rgba(10, 8, 8, 1);
+}
+// .container {
+//   padding: 15px;
+// }
+
+.footer-container {
+  justify-content: c;
+  display: flex;
+  height: 381px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-slogan {
+  width: 207px;
+  margin: auto 37px auto 0;
+}
+.footer-slogan__logo {
+  margin-bottom: 9px;
+}
+
+.footer-slogan__text {
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 1.42;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.social__title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #ffffff;
+}
+.social__list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
+  outline: 2px dotted yellow;
+}
+
+.footer-sitemap {
+  margin: auto 132px auto 0;
+}
+.footer-sitemap__list {
+  padding: 0;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.footer-sitemap__link {
+  font-size: 12px;
+  line-height: 1.17;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.footer-sitemap__link:hover {
+  opacity: 1;
+}
+
+.footer-terms {
+  margin: auto 150px auto 0;
+}
+.footer-terms__list {
+  padding: 0;
+}
+.footer-terms__item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-terms__link {
+  font-size: 12px;
+  line-height: 1.17;
+  color: #ffffff;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.footer-mailing {
+  display: flex;
+}
+.footer-mailing__wrap {
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+}
+.footer-mailing__label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+.footer-mailing__input {
+  display: block;
+  margin-bottom: 15px;
+  padding: 0 0 0 32px;
+  width: 388px;
+  height: 55px;
+  opacity: 0.5;
+  background: #0a0808;
+  border: 2px solid #d64374;
+  border-radius: 5px;
+}
+
+.footer-mailing__btn {
+  position: absolute;
+  right: 0;
+  top: 36px;
+  width: 125px;
+  height: 55px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.footer-payment__list {
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+}
+.footer-payment__item:not(:last-child) {
+  margin-right: 15px;
+}
+.footer-payment__link {
+  display: flex;
+}
