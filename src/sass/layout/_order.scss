@@ -1,3 +1,53 @@
-.product-order-ice {
-  width: 305px;
+.order-instruction__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.18;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.order-instruction__text {
+  margin-bottom: 31px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #0f0101;
+  opacity: 0.7;
+}
+
+.container--order {
+  display: flex;
+  justify-content: space-between;
+}
+.section-order {
+  background-color: #f8edf0;
+}
+
+.order-selection {
+  margin-right: 134px;
+  margin-top: -30px;
+  width: 304px;
+}
+
+.order-instruction__list {
+  padding-left: 0;
+}
+
+.order-instruction__option--text {
+  display: inline-block;
+}
+
+.order-instruction__icon {
+  background-color: #ffffff;
+}
+
+.order-instruction__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.order-instruction {
+  margin-bottom: 41px;
+}
+.order-instruction__google {
+  margin-right: 15px;
 }
