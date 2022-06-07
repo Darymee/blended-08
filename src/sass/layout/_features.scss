@@ -1,0 +1,50 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;   
+}
+
+.features__item {
+    box-sizing: border-box;
+    padding: 33px 27px;
+    background-color: #ffffff;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+}
+
+.features__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.features__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.features__title {
+    margin-bottom: 9px;
+    text-align: center;
+
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+
+    color: #000000;
+}
+
+.features__text {
+    text-align: center;
+
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
